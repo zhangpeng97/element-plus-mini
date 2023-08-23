@@ -1,0 +1,23 @@
+{
+  "name": "@element-plus/play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.3"
+  },
+  "dependencies": {
+    "eslint": "^8.44.0",
+    "vue": "^3.3.4",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "unplugin-vue-components": "0.21.2",
+    "vite-plugin-inspect": "^0.5.0"
+  }
+}

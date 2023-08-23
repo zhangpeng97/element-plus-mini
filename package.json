@@ -1,0 +1,29 @@
+{
+  "name": "element-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*",
+    "play/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -C play dev",
+    "get": "bash ./scripts/gc.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-plus": "^2.3.8"
+  },
+  "devDependencies": {
+    "@element-plus/components": "workspace:^",
+    "@element-plus/play": "workspace:*",
+    "@element-plus/utils": "workspace:^",
+    "@element-plus/theme-chalk":"workspace:*",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "sass": "^1.64.1",
+    "typescript": "^5.1.6"
+  }
+}
